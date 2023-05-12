@@ -7,8 +7,7 @@ public class Solution {
         Scanner scn = new Scanner(System.in);
         
         int n = scn.nextInt();      //5
-        
-        
+
         int sum = 0;
         
         for(int i = 1; i <= n; i++){
