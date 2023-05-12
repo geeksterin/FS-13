@@ -7,11 +7,11 @@ public class Solution {
         for(int i = 0; i < 26; i++){
             if(i % 2 == 0){
                 //lowercase
-                System.out.println(Character.toLowerCase((char)('a' + i)) );
+                System.out.println((char)('a' + i) );
             }
             else{
                 //uppercase
-                System.out.println(Character.toUpperCase((char)('a' + i)) );
+                System.out.println((char)('A' + i));
             }
         }
     }
